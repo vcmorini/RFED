@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>RFED Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+body {
+    background-image: url("img/BackImage.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+<body>
+<div class="p-2 ml-2 mt-2">
+ <h3>Insert a new Patient</h3>
+</div>
+<form method="post" action="generate" class="p-2 ml-3">
+ <div class="form-group row">
+    <label for="inputname1" class="col-sm-2 col-form-label" >First Name</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" id="inputname1" placeholder="Name" name="fname">
+    </div>
+ </div>
+ <div class="form-group row">
+    <label for="inputsurname1" class="col-sm-2 col-form-label">Last Name</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" id="inputsurname1" placeholder="Last Name" name="lname">
+    </div>
+ </div>
+ <div class="form-group row">
+    <label for="birth1" class="col-sm-2 col-form-label">Date of Birth</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" id="birth1" placeholder="dd/mm/yyyy" name="birth">
+    </div>
+ </div>
+ <div class="form-group row">
+    <label for="mac" class="col-sm-2 col-form-label">MAC ADDRESS</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" id="mac" placeholder="aabbccddeeff" name="mac">
+    </div>
+ </div>
+<div class="btn-group" role="group" aria-label="Basic example">
+  <button type="submit" class="btn btn-success">Submit</button>
+  <button type="reset" class="btn btn-secondary">Reset</button>
+</div>
+</form>
+<div class="p-2 ml-2">
+ <h3>Remove a Patient</h3>
+</div>
+<form method="post" action="delete" class="p-2 ml-3">
+ <div class="form-group row">
+    <label for="inputname2" class="col-sm-2 col-form-label">First Name</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" id="inputname2" placeholder="Name" name="fname">
+    </div>
+ </div>
+ <div class="form-group row">
+    <label for="inputsurname2" class="col-sm-2 col-form-label">Last Name</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" id="inputsurname2" placeholder="Last Name" name="lname">
+    </div>
+ </div>
+ <div class="form-group row">
+    <label for="birth2" class="col-sm-2 col-form-label">Date of Birth</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" id="birth2" placeholder="dd/mm/yyyy" name="birth">
+    </div>
+ </div>
+ <div class="btn-group" role="group" aria-label="Basic example">
+  <button type="submit" class="btn btn-danger">Remove</button>
+  <button type="reset" class="btn btn-secondary">Reset</button>
+ </div>
+</form>
+</body>
+</html>

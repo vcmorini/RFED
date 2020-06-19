@@ -1,0 +1,60 @@
+menu "RFED Project Configuration"
+
+config ROUTER_SSID
+    string "Router SSID"
+        default "router_ssi"
+        help
+            Router SSID.
+
+config ROUTER_PASSWORD
+    string "Router password"
+        default "12345678"
+        help
+            Router password.
+
+config MESH_ID
+    string "Mesh ID"
+        default "123456"
+        help
+            Mesh network identification, Nodes with the same mesh ID can
+            communicate with each other.
+
+config MESH_PASSWORD
+    string "Mesh Password"
+    default "MESH_PASSWORD"
+    help
+        Mesh AP password. Password length must be 8 bits smaller than 64 bits,Set to null to not encrypt
+
+config MQTT_URL
+    string "MQTT Broker Complete URL. Don't forget to add the \"mqtt://\"."
+    default "mqtt://BROKER_IP_HERE"
+    help
+        URL of the broker to connect to. Don't forget to add the "mqtt://".
+
+config MESH_MQTT_PUB_QOS
+    int "MESH_MQTT_PUB_QOS"
+    range 0 2
+    default 0
+    help
+        MESH_MQTT_PUB_QOS: MQTT publish Quality of Service(QoS).
+
+config MESH_MQTT_SUB_QOS
+    int "MESH_MQTT_SUB_QOS"
+    range 0 2
+    default 0
+    help
+        MESH_MQTT_SUB_QOS: MQTT subscribe Quality of Service(QoS).
+
+config BLE_RSSI_THRESHOLD
+    int "BLE_RSSI_THRESHOLD "
+    range -100 100
+    default -65
+    help
+        RSSI_THRESHOLD: The minimum RSSI value of the broadcasted BLE beacon to be considered.
+
+config BLE_NAMESPACE_ID_FILTER
+    string "BLE_NAMESPACE_ID_FILTER"
+    default "476c6f62616c2d546167"
+    help
+        BLE_NAMESPACE_ID_FILTER: The BLE NAMESPACE ID that you desire to detect. Different NAMESPACE IDs will not be considered.
+endmenu
