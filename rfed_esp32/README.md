@@ -1,7 +1,7 @@
 # RFED PROJECT - MESH MQTT BLE example on ESP32
 
 ## Overview
-Keywords: ESP32, ESP_MDF; BLE; MQTT;
+Keywords: ESP32, ESP-MDF; ESP-IDF; MQTT; BLE; BEACONS;
 
 This example shows how to exchange messages via MQTT MESH network among the ESP32 devices and the gateway (MQTT broker and AP). 
 The messages are configured to be sent whenever a BLE beacon of a specific UUID is detected.
