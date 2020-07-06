@@ -4,12 +4,13 @@ Indoor Real-Time Patient Location System designed for health facilities, in orde
 # Master degree
 ICT for Smart Societies - Politecnico di Torino
 # Hardwares
-* Global Tag BLE Development Kit
+* Global Tag BLE Development Kit [Global Tag](https://www.global-tag.com/it/)
 * ESP32-DevKitC
 * Raspberry Pi 3B+
 # Software
 * Python
 * FreeRTOS
+* ESP-IDF
 * ESP-MDF
 * MongoDB
 # Authors
