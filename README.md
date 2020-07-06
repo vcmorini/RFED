@@ -1,8 +1,6 @@
 # RFED Project
 Indoor Real-Time Patient Location System designed for health facilities, in order to track patients in real-time within the infrastructure and detect the bottlenecks.
 
-# Master degree
-ICT for Smart Societies - Politecnico di Torino
 # Hardwares
 * [Global Tag](https://www.global-tag.com/it/) BLE Development Kit 
 * ESP32-DevKitC
