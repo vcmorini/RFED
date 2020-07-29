@@ -14,9 +14,12 @@ Indoor Real-Time Patient Location System designed for health facilities, in orde
 # Authors
 * Anastasya Isgandarova
 * Cansu Ilter
-* Lorenzo Bellone
-* Victor de Castro Morini
+* [Lorenzo Bellone](https://github.com/LorenzoBellone)
+* [Victor de Castro Morini](https://github.com/vcmorini)
 
 # Repositories
 * rfed_esp32, contains the codes for the ESP-32 mesh network implementation and the beacons detection.
 * rfed_gateway, contains the codes for the interface between the messages sent by the mesh network and the gateway that acts like a subscriber, filling the database (MongoDB).
+
+# Video Promo
+https://youtu.be/IqSe0G2Xu40
