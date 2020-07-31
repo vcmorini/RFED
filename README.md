@@ -1,6 +1,7 @@
 # RFED Project
 Indoor Real-Time Patient Location System designed for health facilities, in order to track patients in real-time within the infrastructure and detect the bottlenecks.
-[YouTube - RFED Teaser](https://youtu.be/HmDeq-va8y0)
+
+[YouTube - RFED Teaser](https://youtu.be/SeuhSV6cX2k)
 
 # Hardwares
 * [Global Tag](https://www.global-tag.com/it/) BLE Development Kit 
