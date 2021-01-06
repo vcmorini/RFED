@@ -14,8 +14,8 @@ Indoor Real-Time Patient Location System designed for health facilities. The goa
 * ESP-MDF
 * MongoDB
 # Authors
-* Anastasya Isgandarova
-* Cansu Ilter
+* [Anastasya Isgandarova](https://github.com/ianastasiya)
+* [Cansu Ilter](https://github.com/cansuilter)
 * [Lorenzo Bellone](https://github.com/LorenzoBellone)
 * [Victor de Castro Morini](https://github.com/vcmorini)
 
