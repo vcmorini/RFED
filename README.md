@@ -23,3 +23,9 @@ Indoor Real-Time Patient Location System designed for health facilities. The goa
 * rfed_esp32, contains the codes for the ESP-32 mesh network implementation and the beacons detection.
 * rfed_gateway, contains the codes for the interface between the messages sent by the mesh network and the gateway that acts like a subscriber, filling the database (MongoDB).
 
+# Snapshots
+![alt text](https://github.com/vcmorini/rfed/blob/master/proposed_solution.PNG?raw=true)
+![alt text](https://github.com/vcmorini/rfed/blob/master/message_delivery_overview.PNG?raw=true)
+![alt text](https://github.com/vcmorini/rfed/blob/master/web_interface.PNG?raw=true)
+![alt text](https://github.com/vcmorini/rfed/blob/master/prototype_testing.PNG?raw=true)
+![alt text](https://github.com/vcmorini/rfed/blob/master/prototype_case.PNG?raw=true)
