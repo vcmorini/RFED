@@ -1,5 +1,5 @@
 # RFED Project
-Indoor Real-Time Patient Location System designed for health facilities. The goal was to track patients in real-time within the infrastructure thus detecting its bottlenecks.
+Indoor Patient Location System designed for health facilities. The goal was to track patients within the infrastructure thus detecting its bottlenecks.
 
 [YouTube - RFED Teaser](https://youtu.be/SeuhSV6cX2k)
 
